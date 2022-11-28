@@ -20,7 +20,7 @@ public class BillingController {
 		
 		Contact contact = contactService.getContactById(id);
 		model.addAttribute("contact", contact);
-		
+		System.out.println("Swagat");
 		return "generate_bill";
 	}
 }
